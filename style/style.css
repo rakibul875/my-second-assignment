@@ -132,7 +132,7 @@
 }
 
 #choose {
-  width: 100%;
+  /* width: 100%; */
   max-width: 1600px;
   width: 70%;
   margin: 0 auto;
@@ -305,44 +305,52 @@
 }
 
 #video {
-  width: 100%;
   max-width: 1600px;
-  width: 70%;
+  width: 90%;
   margin: 0 auto;
 }
 
-.featured {
-  width: 100%;
-  max-width: 1200px;
-  width: 100%;
-  margin: 0 auto;
+.featured h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
 }
 
 .video {
-  display: grid;
-  max-width: 1200px;
-  margin: 0 auto;
+  display: flex;
+  margin-top: 40px;
+  margin-left: 70px;
+  justify-content: center;
   gap: 30px;
-  grid-template-columns: repeat(3, 1fr);
 }
 
-.video-content {
-  width: 350px;
-  height: 210px;
+.video-content1 {
+  display: flex;
+  flex-direction: column;
+  background-color: #351165;
+  border-radius: 9px;
+  overflow: hidden;
 }
 
-.video-content h3 {
+.titel {
   margin-top: 24px;
-  font-size: 24px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.titel h3 {
+  font-size: 22px;
   font-weight: bold;
   color: #FFFFFF;
 }
 
-.video-content p {
+.titel p {
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
   color: #627382;
+  margin-top: 10px;
 }
 
 .timer {
@@ -360,6 +368,58 @@
   height: 20px;
 }
 
+.host {
+  max-width: 1600px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.host-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  height: 280px;
+  border-radius: 20px;
+  background-color: #351165;
+}
+
+.image img{
+  margin: 40px 0 40px 40px;
+}
+.content h2{
+  font-size: 38px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+.content p{
+  font-size: 16px;
+  line-height: 24px;
+  color: #627382;
+  margin-top: 16px;
+}
+
+.socil{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  /* border: 1px solid black; */
+}
+
+.socil-image{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #533C72;
+}
+
+.socil-image img{
+  align-items: center;
+ padding: 10px;
+}
 /* responsiv section */
 @media screen and (max-width:576px) {
   #navbar {
@@ -457,4 +517,19 @@
     border-radius: 20px;
     margin: 0 auto;
   }
+
+  #video {
+    width: 100%;
+  }
+
+  .video {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .video-content1 {
+    width: 95%;
+    margin: 0 auto;
+  }
+
 }
