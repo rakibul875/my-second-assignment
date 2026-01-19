@@ -362,6 +362,7 @@
   height: 24px;
   margin-bottom: 24px;
 }
+
 .timer p {
   margin-bottom: 10px;
 }
@@ -377,7 +378,7 @@
   margin: 0 auto;
 }
 
-.host h2{
+.host h2 {
   font-size: 48px;
   font-weight: bold;
   color: #FFFFFF;
@@ -385,7 +386,7 @@
   margin-top: 120px;
 }
 
-.host-container{
+.host-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -396,16 +397,17 @@
   background-color: #351165;
 }
 
-.image img{
+.image img {
   margin: 40px 0 40px 40px;
 }
-.content h3{
+
+.content h3 {
   font-size: 38px;
   font-weight: bold;
   color: #FFFFFF;
 }
 
-.content p{
+.content p {
   font-size: 16px;
   line-height: 24px;
   color: #627382;
@@ -413,14 +415,14 @@
   margin-top: 16px;
 }
 
-.socil{
+.socil {
   display: flex;
   gap: 10px;
   align-items: center;
   /* border: 1px solid black; */
 }
 
-.socil-image{
+.socil-image {
   height: 40px;
   width: 40px;
   border-radius: 50%;
@@ -430,14 +432,59 @@
   border: 1px solid #533C72;
 }
 
-.socil-image img{
+.socil-image img {
   align-items: center;
- padding: 10px;
+  padding: 10px;
 }
 
-#footer{
+#footer {
   background-image: url(../images/footer-bg.png);
+  background-size: cover;
 }
+
+.footer {
+  max-width: 1600px;
+  width: 70%;
+  margin: 0 auto;
+  padding: 120px;
+}
+
+.footer-content {
+  justify-content: center;
+  align-items: center;
+  margin-left: 145px;
+
+}
+
+.footer-content h1 {
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 60px;
+  font-weight: 800;
+}
+
+.join-us{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 32px;
+}
+
+.join-us a{
+  text-decoration: none;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
+.footer-content p{
+  color: #FFFFFF;
+  margin-top: 32px;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+
 
 /* responsiv section */
 @media screen and (max-width:576px) {
@@ -551,21 +598,22 @@
     margin: 0 auto;
   }
 
-  .featured h1{
+  .featured h1 {
     font-size: 30px;
     margin-bottom: 20px;
     margin-top: 0px;
   }
 
-  .host{
+  .host {
     width: 95%;
   }
 
-  .host h2{
+  .host h2 {
     font-size: 30px;
     margin-top: 60px;
   }
-  .host-container{
+
+  .host-container {
     flex-direction: column;
     height: 100%;
     margin: 0 auto;
@@ -575,21 +623,24 @@
     margin: 40px;
   }
 
-  .content{
+  .content {
     width: 350px;
     margin: 0 auto;
     margin-bottom: 20px;
   }
-  .content h3{
+
+  .content h3 {
     font-size: 24px;
     text-align: center;
   }
-  .content p{
+
+  .content p {
     text-align: center;
     margin: 0;
     margin: 10px;
   }
-  .socil{
+
+  .socil {
     justify-content: center;
   }
 
