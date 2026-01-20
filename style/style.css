@@ -94,11 +94,13 @@
   padding: 8px 16px;
   background: #00FF88;
   border-radius: 20px;
+  position: relative;
   position: absolute;
-  top: 170px;
-  right: 560px;
+  top: 25%;
+  right: 38%;
   box-shadow: 0 3px 27px 0px #00ff887c;
 }
+
 
 .banner-content h2 {
   color: #FFFFFF;
@@ -550,9 +552,21 @@
   }
 
   #banner {
-    display: none;
+    background-size: cover;
   }
 
+  .banner-text{
+    width: 100%;
+  }
+
+ .banner-content {
+  margin: 0;
+ }
+
+ .new-text{
+  left: 78%;
+  top: 17%;
+ }
 
   #about {
     width: 95%;
@@ -636,12 +650,36 @@
     margin: 0 auto;
   }
 
+  .mobile h3 {
+    margin-left: 0;
+  }
+
+  .mobile p {
+    margin-left: 0;
+  }
+
+  .mobile img {
+    margin-left: 0;
+  }
+
   .global {
     max-width: 380px;
     width: 90%;
     border-radius: 20px;
     margin: 0 auto;
 
+  }
+
+  .global img {
+    margin-left: 0;
+  }
+
+  .global h3 {
+    margin-left: 0;
+  }
+
+  .global p {
+    margin-left: 0;
   }
 
   .exclusive {
@@ -652,10 +690,37 @@
     margin: 0 auto;
   }
 
+  .exclusive img{
+    margin-left: 0;
+  }
+
+  .exclusive h3{
+    margin-left: 0;
+  }
+
+  .exclusive p{
+    width: 90%;
+    text-align: center;
+    margin-left: 9px;
+  }
+
   .rich {
     width: 90%;
     border-radius: 20px;
     margin: 0 auto;
+    height: auto;
+  }
+
+  .rich img{
+    margin-left: 0;
+  }
+
+  .rich h3{
+    margin-left: 0;
+  }
+
+  .rich P{
+    margin-left: 0;
   }
 
   #video {
@@ -722,7 +787,7 @@
   #footer {
     background-size: cover;
     position: absolute;
-    
+
   }
 
   .footer {
