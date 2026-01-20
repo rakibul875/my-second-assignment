@@ -72,8 +72,9 @@
 }
 
 #banner {
-  max-width: 100%;
+  max-width: 1440px;
   width: 100%;
+  margin: 0 auto;
   background: url(../images/hero-bg.png);
   background-size: 100%;
   background-repeat: no-repeat;
@@ -89,7 +90,12 @@
   background-repeat: no-repeat;
   background: url(../images/hero-circle.png);
   background-position: center;
+  /* position: relative; */
   padding: 78px 116px 91px 116px;
+}
+
+.my-image {
+  position: relative;
 }
 
 .new-text {
@@ -98,10 +104,11 @@
   padding: 8px 16px;
   background: #00FF88;
   border-radius: 20px;
-  position: relative;
+  /* position: relative;
+  bottom: 50%; */
   position: absolute;
-  top: 25%;
-  right: 38%;
+  top: 7%;
+  right: 5%;
   box-shadow: 0 3px 27px 0px #00ff887c;
 }
 
@@ -123,7 +130,7 @@
 
 #about {
   width: 100%;
-  max-width: 1600px;
+  max-width: 1400px;
   width: 70%;
   margin: 0 auto;
 }
@@ -179,7 +186,7 @@
 
 #choose {
   /* width: 100%; */
-  max-width: 1600px;
+  max-width: 1400px;
   width: 70%;
   margin: 0 auto;
 }
@@ -222,7 +229,7 @@
 
 /* hedphone responsive */
 
-.headfhone:hover{
+.headfhone:hover {
   transform: scale(1.04)
 }
 
@@ -255,7 +262,7 @@
   width: 720px;
 }
 
-.mobile:hover{
+.mobile:hover {
   transform: scale(1.04)
 }
 
@@ -289,7 +296,7 @@
   width: 720px;
 }
 
-.global:hover{
+.global:hover {
   transform: scale(1.04)
 }
 
@@ -323,7 +330,7 @@
   height: 280px;
 }
 
-.exclusive:hover{
+.exclusive:hover {
   transform: scale(1.04)
 }
 
@@ -357,7 +364,7 @@
   height: 280px;
 }
 
-.rich:hover{
+.rich:hover {
   transform: scale(1.04)
 }
 
@@ -581,18 +588,18 @@
     background-size: 100% 100%;
   }
 
-  .banner-text{
+  .banner-text {
     width: 100%;
   }
 
- .banner-content {
-  margin: 0;
- }
+  .banner-content {
+    margin: 0;
+  }
 
- .new-text{
-  left: 78%;
-  top: 17%;
- }
+  .new-text {
+    left: 78%;
+    top: 17%;
+  }
 
   #about {
     width: 95%;
@@ -716,15 +723,15 @@
     margin: 0 auto;
   }
 
-  .exclusive img{
+  .exclusive img {
     margin-left: 0;
   }
 
-  .exclusive h3{
+  .exclusive h3 {
     margin-left: 0;
   }
 
-  .exclusive p{
+  .exclusive p {
     width: 90%;
     text-align: center;
     margin-left: 9px;
@@ -737,15 +744,15 @@
     height: auto;
   }
 
-  .rich img{
+  .rich img {
     margin-left: 0;
   }
 
-  .rich h3{
+  .rich h3 {
     margin-left: 0;
   }
 
-  .rich P{
+  .rich P {
     margin-left: 0;
   }
 
@@ -846,6 +853,4 @@
     position: relative;
     text-align: center;
   }
-
-  #footer{}
 }
