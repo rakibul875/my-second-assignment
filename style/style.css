@@ -7,6 +7,11 @@
 .work-sans-font {
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 1600px;
 }
 
 .btn {
@@ -18,7 +23,7 @@
   background: linear-gradient(47.64deg, rgba(247, 233, 63, 1), rgba(251, 9, 180, 1), rgba(145, 0, 248, 1));
 }
 
-.btn2{
+.btn2 {
   padding: 15px;
   border-radius: 40px;
   border: 1px solid #00FF88;
@@ -65,7 +70,7 @@
 #banner {
   max-width: 100%;
   width: 100%;
-  background-image: url(../images/hero-bg.png);
+  background: url(../images/hero-bg.png);
   background-size: 100%;
   background-repeat: no-repeat;
   border: 1px solid #1A0B2E;
@@ -78,9 +83,21 @@
 
 .banner-content img {
   background-repeat: no-repeat;
-  background-image: url(../images/hero-circle.png);
+  background: url(../images/hero-circle.png);
   background-position: center;
   padding: 78px 116px 91px 116px;
+}
+
+.new-text {
+  width: 75px;
+  height: 38px;
+  padding: 8px 16px;
+  background: #00FF88;
+  border-radius: 20px;
+  position: absolute;
+  top: 170px;
+  right: 560px;
+  box-shadow: 0 3px 27px 0px #00ff887c;
 }
 
 .banner-content h2 {
@@ -536,6 +553,7 @@
     display: none;
   }
 
+
   #about {
     width: 95%;
   }
@@ -555,11 +573,11 @@
     grid-template-rows: repeat(2, 1fr);
   }
 
-  .rating h1{
+  .rating h1 {
     font-size: 40px;
   }
 
-  .rating p{
+  .rating p {
     font-size: 13px;
     font-weight: 800;
   }
@@ -666,7 +684,8 @@
 
   .host h2 {
     font-size: 30px;
-    margin-top: 60px;
+    margin-top: 40px;
+    margin-bottom: 20px;
   }
 
   .host-container {
@@ -703,7 +722,7 @@
   #footer {
     background-size: cover;
     position: absolute;
-    position: relative;
+    
   }
 
   .footer {
