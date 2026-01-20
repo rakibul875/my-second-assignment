@@ -31,6 +31,10 @@
   background: none;
 }
 
+/* .btn2:hover{
+  background-color: #FB09B4;
+} */
+
 #navbar {
   background-color: #1A0B2E;
   max-width: 100%;
@@ -191,7 +195,7 @@
   font-size: 24px;
   margin-top: 16px;
   font-weight: bold;
-  margin-left: 40px;
+  margin-left: 20px;
   color: #FFFFFF;
 }
 
@@ -199,12 +203,12 @@
   font-size: 16px;
   margin-top: 16px;
   color: #627382;
-  margin-left: 40px;
+  margin-left: 20px;
 }
 
 .headfhone img {
   margin-top: 107px;
-  margin-left: 40px;
+  margin-left: 20px;
 }
 
 .headfhone {
@@ -214,6 +218,12 @@
   border-radius: 40px;
   width: 380px;
   height: 480px;
+}
+
+/* hedphone responsive */
+
+.headfhone:hover{
+  transform: scale(1.04)
 }
 
 .mobile h3 {
@@ -243,6 +253,10 @@
   justify-content: centers;
   border-radius: 40px;
   width: 720px;
+}
+
+.mobile:hover{
+  transform: scale(1.04)
 }
 
 .global h3 {
@@ -275,6 +289,10 @@
   width: 720px;
 }
 
+.global:hover{
+  transform: scale(1.04)
+}
+
 .exclusive h3 {
   font-size: 24px;
   margin-top: 16px;
@@ -305,6 +323,10 @@
   height: 280px;
 }
 
+.exclusive:hover{
+  transform: scale(1.04)
+}
+
 .rich h3 {
   font-size: 24px;
   margin-top: 16px;
@@ -333,6 +355,10 @@
   border-radius: 40px;
   width: 380px;
   height: 280px;
+}
+
+.rich:hover{
+  transform: scale(1.04)
 }
 
 .grid-responsive {
